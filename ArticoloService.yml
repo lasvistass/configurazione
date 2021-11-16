@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+
+    url: jdbc:mysql://212.131.189.19:30016/corso12
+    
+    username: Simone
+    
+    password: Corso12!
+    
+  application:
+    name: ArticoloService
+    
+  jpa:
+    show-sql: true
+    
+    hibernate:
+      ddl-auto: update
+    
+server:
+  port: 8090
