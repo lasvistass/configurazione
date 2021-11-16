@@ -1,9 +1,9 @@
 spring:
   data:
     mongodb:
-      authentication-database: admin
-      username: Cascata00
-      password: Cascata00
-      database: Cluster0
+      uri: mongodb+srv://Cascata00:<Cascata00>@cluster0.9erev.mongodb.net/primodb?retryWrites=true&w=majority
       port: 27017
-      host: localhost:8080
+      auto-index-creation: true 
+
+server:
+  port: 8091
