@@ -1,18 +1,9 @@
-storage:
-    dbPath: "/data/db"
-    directoryPerDB: true
-    journal:
-        enabled: true
-systemLog:
-    destination: file
-    path: "/data/db/mongodb.log"
-    logAppend: true
-    timeStampFormat: iso8601-utc
-processManagement:
-    fork: true
-net:
-    bindIp: 127.0.0.1
-    port: 27017
-    wireObjectCheck : false
-    unixDomainSocket: 
-        enabled : true
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      username: Cascata00
+      password: Cascata00
+      database: Cluster0
+      port: 27017
+      host: localhost:8080
