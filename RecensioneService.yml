@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://simone:<passpass>@cluster0.9erev.mongodb.net/primodb?retryWrites=true&w=majority
+      uri: mongodb+srv://simone:passpass@cluster0.9erev.mongodb.net/primodb?retryWrites=true&w=majority
       port: 27017
       auto-index-creation: true 
 
