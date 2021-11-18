@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://Cascata00:<Cascata00>@cluster0.9erev.mongodb.net/primodb?retryWrites=true&w=majority
+      uri: mongodb+srv://Cascata00:<Cascata00>@cluster0.9erev.mongodb.net/primodb
       port: 27017
       auto-index-creation: true 
 
